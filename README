@@ -1,0 +1,5 @@
+启动测试：
+1. mvn clean package
+2. mvn exec:java -Dexec.mainClass=com.jimmy.grpc.demo.routeguide.RouteGuideServer
+3. mvn exec:java -Dexec.mainClass=com.jimmy.grpc.demo.routeguide.RouteGuideClient
+
